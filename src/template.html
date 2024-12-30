@@ -3,9 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Odin Weather</title>
 </head>
 <body>
-    
+    <div id="container">
+        <h1>Odin Weather</h1>
+        <div id="form-area">
+            <div>
+                <label for="city-field">Please enter a city:</label>
+                <input type="text" id="city-field">
+            </div>
+            <button id="validate-input">Get the weather!</button>
+        </div>
+        <div id="result-area">
+            <h2 id="city-name">Waiting</h2>
+            <p id="city-content">Enter the name of a city above.</p>
+        </div>
+    </div>
 </body>
 </html>
